@@ -80,7 +80,7 @@ public class Utilities {
     /**
      * The font of the status line.
      */
-    public static final Font statusLineFont = new FontUIResource(LABEL_FONT_NAME, 1, 16);
+    public static final Font statusLineFont = new FontUIResource(LABEL_FONT_NAME, 1, 10);
 
     /**
      * Returns the location of the given bottom component relative to its given top level ancestor.

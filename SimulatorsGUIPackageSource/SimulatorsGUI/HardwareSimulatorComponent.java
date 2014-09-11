@@ -32,8 +32,8 @@ public class HardwareSimulatorComponent extends HackSimulatorComponent implement
 
     // The dimension of this window.
     private static final int WIDTH = 1018;
+   // private static final int HEIGHT = 611;
     private static final int HEIGHT = 611;
-
     // The input pins of the hardware simulator.
     private PinsComponent inputPins;
 

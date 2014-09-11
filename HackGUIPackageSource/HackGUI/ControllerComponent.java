@@ -38,7 +38,7 @@ public class ControllerComponent extends JFrame implements ControllerGUI,
 
     // The dimensions of this window.
     private static final int CONTROLLER_WIDTH = 1024;
-    private static final int CONTROLLER_HEIGHT = 741;
+    private static final int CONTROLLER_HEIGHT = 721;
 
     // The dimensions of the toolbar's separator.
     protected static final Dimension separatorDimension = new Dimension(3, TOOLBAR_HEIGHT - 5);
@@ -897,8 +897,8 @@ public class ControllerComponent extends JFrame implements ControllerGUI,
         });
 
         messageLbl.setFont(Utilities.statusLineFont);
-        messageLbl.setBorder(BorderFactory.createLoweredBevelBorder());
-        messageLbl.setBounds(new Rectangle(0, 667, CONTROLLER_WIDTH - 8, 25));
+        //messageLbl.setBorder(BorderFactory.create());
+        messageLbl.setBounds(new Rectangle(0, 661, CONTROLLER_WIDTH - 8, 14));
 
         toolBar = new JToolBar();
         toolBar.setSize(new Dimension(TOOLBAR_WIDTH,TOOLBAR_HEIGHT));
